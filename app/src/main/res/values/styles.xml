@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">@color/lightGrey</item>
+        <item name="android:colorForeground">@color/darkBlue</item>
+        <item name="android:windowBackground">@color/lightGrey</item>
+
+        <!--The color of the app bar-->
+        <item name="android:colorPrimary">@color/navyBlue</item>
+        <!--The color of the status bar and contextual app bars; this is normally a dark version of colorPrimary-->
+        <item name="android:colorPrimaryDark">@color/navyBlue</item>
+        <!--The color of UI controls such as check boxes, radio buttons, and edit text boxes.-->
+        <item name="android:colorAccent">@color/neonGreen</item>
+
+        <item name="android:statusBarColor">@color/navyBlue</item>
+        <item name="android:navigationBarColor">@color/navyBlue</item>
+
+        <!--The color of UI text in the app bar.-->
+        <item name="android:textColorPrimary">@color/lightGrey</item>
+        <item name="android:textColorPrimaryInverse">@color/cyan</item>
+        <item name="android:textColorSecondary">@color/cyan</item>
+        <item name="android:textColorSecondaryInverse">@color/cyan</item>
+        <item name="android:textColor">@color/teal</item>
+        <item name="colorAccent">@color/neonGreen</item>
+        <item name="colorPrimaryDark">@color/navyBlue</item>
+        <item name="colorPrimary">@color/navyBlue</item>
+
+
+    </style>
+
+    <style name="button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/lightGrey</item>
+        <item name="android:background">@color/cyan</item>
+    </style>
+
+    <style name="StudyBuddy" >
+
+        <item name="colorPrimary">@color/mediumGreen</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/darkGreen</item>
+        <item name="android:colorBackground">@color/mediumGreen</item>
+        <item name="android:colorPrimaryDark">@color/darkBlue</item>
+        <item name="android:colorPrimary">@color/darkBlue</item>
+        <item name="android:colorAccent">@color/mediumGreen</item>
+        <item name="android:statusBarColor">@color/darkBlue</item>
+        <item name="android:navigationBarColor">?android:attr/statusBarColor</item>
+        <item name="android:textColorSecondary">@color/darkBlue</item>
+        <item name="android:textColorPrimaryInverse">@color/lightGreen</item>
+        <item name="android:textColorPrimary">@color/backgroundLight</item>
+        <item name="android:textColorSecondaryInverse">@color/lightGreen</item>
+        <item name="android:colorForeground">@color/darkBlue</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

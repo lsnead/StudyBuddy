@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/splashscreen"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sign_out"
+        app:srcCompat="@drawable/studybuddytitle3" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/teal"
+        />
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Sign Out"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewName"
+        android:text=""
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <CheckBox
+        android:id="@+id/plfcheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am a peer learning facilitator"
+        android:layout_below="@id/sign_in_button"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

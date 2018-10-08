@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/day_textView"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:np_dividerDistance="60dp"
+        app:np_width="130dp"
+        app:np_height="50dp"
+        app:np_dividerColor="@color/cyan"
+        app:np_orientation="horizontal"
+        app:np_selectedTextColor="@color/cyan"
+        app:np_textColor="@color/teal"
+        android:layout_centerHorizontal="true"
+        >
+
+    </com.shawnlin.numberpicker.NumberPicker>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/timepicker"
+        >
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_button"
+        android:layout_toLeftOf="@id/delete_button"
+        />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button"
+        />
+    </LinearLayout>
+
+</RelativeLayout>
